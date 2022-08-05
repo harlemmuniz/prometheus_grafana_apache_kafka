@@ -1,10 +1,10 @@
 # prometheus_grafana_apache_kafka
 A monitoring project using Prometheus and Grafana for Apache Kafka
-##Requirements
+## Requirements
 
-Apache Kafka has not integration with Prometheus by default, so it's required to enable Prometheus to colect metrics from Apache Kafka importing an jmx-exporter file.
+Apache Kafka has not integration with Prometheus by default, so it's required to enable Prometheus to colect metrics from Apache Kafka importing an [jmx-exporter file](https://github.com/harlemmuniz/apache_kafka_zookeeper_prometheus_grafana_docker/tree/main/jmx-exporter).
 
-##Getting Started
+## Getting Started
 1. Clone the Kafka Monitoring repository:
 
 ```
@@ -20,8 +20,9 @@ sudo docker run -p 3000:3000 -d --name=grafana --restart unless-stopped -e GF_AU
 ```
 
 
-###Accessing Grafana Web UI
+
+### Accessing Grafana Web UI
 Grafana is accessible at the address : http://localhost:3000
 
-###Accessing Prometheus Web UI
+### Accessing Prometheus Web UI
 Prometheus is accessible at the address : http://localhost:9090
