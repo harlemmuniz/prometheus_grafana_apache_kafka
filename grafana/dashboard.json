@@ -42,10 +42,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Number of active controllers in the cluster.",
             "fieldConfig": {
                 "defaults": {
@@ -122,10 +119,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Number of Brokers Online",
             "fieldConfig": {
                 "defaults": {
@@ -208,10 +202,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Partitions that are online",
             "fieldConfig": {
                 "defaults": {
@@ -292,10 +283,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "",
             "fieldConfig": {
                 "defaults": {
@@ -374,10 +362,7 @@
             "type": "stat"
         },
         {
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "fieldConfig": {
                 "defaults": {
                     "color": {
@@ -483,10 +468,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Number of under-replicated partitions (| ISR | < | all replicas |).",
             "fieldConfig": {
                 "defaults": {
@@ -568,10 +550,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Number of partitions under min insync replicas.",
             "fieldConfig": {
                 "defaults": {
@@ -653,10 +632,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Number of partitions that dont have an active leader and are hence not writable or readable.",
             "fieldConfig": {
                 "defaults": {
@@ -737,10 +713,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Unclean leader election rate",
             "fieldConfig": {
                 "defaults": {
@@ -834,10 +807,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Produce request rate.",
             "fieldConfig": {
                 "defaults": {
@@ -906,10 +876,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Produce request rate.",
             "fieldConfig": {
                 "defaults": {
@@ -978,10 +945,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Fetch request rate.",
             "fieldConfig": {
                 "defaults": {
@@ -1135,10 +1099,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Fetch request rate.",
             "fieldConfig": {
                 "defaults": {
@@ -1207,10 +1168,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Offset Commit request rate.",
             "fieldConfig": {
                 "defaults": {
@@ -1279,10 +1237,7 @@
         },
         {
             "cacheTimeout": null,
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "description": "Metadata request rate.",
             "fieldConfig": {
                 "defaults": {
@@ -1364,10 +1319,7 @@
             "type": "row"
         },
         {
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "fieldConfig": {
                 "defaults": {
                     "color": {
@@ -1477,10 +1429,7 @@
             "type": "timeseries"
         },
         {
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "fieldConfig": {
                 "defaults": {
                     "color": {
@@ -1595,10 +1544,7 @@
             "type": "timeseries"
         },
         {
-            "datasource": {
-                "type": "prometheus",
-                "uid": "1Dqnsmi4z"
-            },
+            "datasource": "Prometheus",
             "fieldConfig": {
                 "defaults": {
                     "color": {
@@ -1718,10 +1664,7 @@
             "id": 29,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -1812,10 +1755,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -1911,10 +1851,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -2009,10 +1946,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -2106,10 +2040,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -2203,10 +2134,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -2314,10 +2242,7 @@
             "id": 44,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "Average fraction of time the network processor threads are idle. Values are between 0 (all resources are used) and 100 (all resources are available)\n",
                     "fieldConfig": {
                         "defaults": {
@@ -2407,10 +2332,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "Average fraction of time the request handler threads are idle. Values are between 0 (all resources are used) and 100 (all resources are available).\n",
                     "fieldConfig": {
                         "defaults": {
@@ -2516,10 +2438,7 @@
             "id": 86,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "Latency in millseconds for ZooKeeper requests from broker.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -2609,10 +2528,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "",
                     "fieldConfig": {
                         "defaults": {
@@ -2705,10 +2621,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "",
                     "fieldConfig": {
                         "defaults": {
@@ -2800,10 +2713,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "",
                     "fieldConfig": {
                         "defaults": {
@@ -2895,10 +2805,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "",
                     "fieldConfig": {
                         "defaults": {
@@ -3005,10 +2912,7 @@
             "id": 82,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": ": The number of in-sync replicas (ISRs) for a particular partition should remain fairly static, the only exceptions are when you are expanding your broker cluster or removing partitions. In order to maintain high availability, a healthy Kafka cluster requires a minimum number of ISRs for failover. A replica could be removed from the ISR pool for a couple of reasons: it is too far behind the leaders offset (user-configurable by setting the replica.lag.max.messages configuration parameter), or it has not contacted the leader for some time (configurable with the replica.socket.timeout.ms parameter). No matter the reason, an increase in IsrShrinksPerSec without a corresponding increase in IsrExpandsPerSec shortly thereafter is cause for concern and requires user intervention.The Kafka documentation provides a wealth of information on the user-configurable parameters for brokers.",
                     "fieldConfig": {
                         "defaults": {
@@ -3099,10 +3003,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": ": The number of in-sync replicas (ISRs) for a particular partition should remain fairly static, the only exceptions are when you are expanding your broker cluster or removing partitions. In order to maintain high availability, a healthy Kafka cluster requires a minimum number of ISRs for failover. A replica could be removed from the ISR pool for a couple of reasons: it is too far behind the leaders offset (user-configurable by setting the replica.lag.max.messages configuration parameter), or it has not contacted the leader for some time (configurable with the replica.socket.timeout.ms parameter). No matter the reason, an increase in IsrShrinksPerSec without a corresponding increase in IsrExpandsPerSec shortly thereafter is cause for concern and requires user intervention.The Kafka documentation provides a wealth of information on the user-configurable parameters for brokers.",
                     "fieldConfig": {
                         "defaults": {
@@ -3209,10 +3110,7 @@
             "id": 53,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -3300,10 +3198,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -3406,10 +3301,7 @@
             "id": 58,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply there aren't enough IO threads or the CPU is a bottleneck, or the request queue isnt large enough. The request queue size should match the number of connections.",
                     "fieldConfig": {
                         "defaults": {
@@ -3499,10 +3391,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "In most cases, a high value can imply slow local storage or the storage is a bottleneck. One should also investigate LogFlushRateAndTimeMs to know how long page flushes are taking, which will also indicate a slow disk. In the case of FetchFollower requests, time spent in LocalTimeMs can be the result of a ZooKeeper write to change the ISR.",
                     "fieldConfig": {
                         "defaults": {
@@ -3592,10 +3481,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply a slow network connection. For fetch request, if the remote time is high, it could be that there is not enough data to give in a fetch response. This can happen when the consumer or replica is caught up and there is no new incoming data. If this is the case, remote time will be close to the max wait time, which is normal. Max wait time is configured via replica.fetch.wait.max.ms and fetch.max.wait.ms.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -3685,10 +3571,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply there aren't enough network threads or the network cant dequeue responses quickly enough, causing back pressure in the response queue.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -3778,10 +3661,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply the zero-copy from disk to the network is slow, or the network is the bottleneck because the network cant dequeue responses of the TCP socket as quickly as theyre being created. If the network buffer gets full, Kafka will block.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -3887,10 +3767,7 @@
             "id": 68,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply there aren't enough IO threads or the CPU is a bottleneck, or the request queue isnt large enough. The request queue size should match the number of connections.",
                     "fieldConfig": {
                         "defaults": {
@@ -3981,10 +3858,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "In most cases, a high value can imply slow local storage or the storage is a bottleneck. One should also investigate LogFlushRateAndTimeMs to know how long page flushes are taking, which will also indicate a slow disk. In the case of FetchFollower requests, time spent in LocalTimeMs can be the result of a ZooKeeper write to change the ISR.",
                     "fieldConfig": {
                         "defaults": {
@@ -4074,10 +3948,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply a slow network connection. For fetch request, if the remote time is high, it could be that there is not enough data to give in a fetch response. This can happen when the consumer or replica is caught up and there is no new incoming data. If this is the case, remote time will be close to the max wait time, which is normal. Max wait time is configured via replica.fetch.wait.max.ms and fetch.max.wait.ms.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -4167,10 +4038,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply there aren't enough network threads or the network cant dequeue responses quickly enough, causing back pressure in the response queue.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -4261,10 +4129,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply the zero-copy from disk to the network is slow, or the network is the bottleneck because the network cant dequeue responses of the TCP socket as quickly as theyre being created. If the network buffer gets full, Kafka will block.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -4370,10 +4235,7 @@
             "id": 66,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply there aren't enough IO threads or the CPU is a bottleneck, or the request queue isnt large enough. The request queue size should match the number of connections.",
                     "fieldConfig": {
                         "defaults": {
@@ -4464,10 +4326,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "In most cases, a high value can imply slow local storage or the storage is a bottleneck. One should also investigate LogFlushRateAndTimeMs to know how long page flushes are taking, which will also indicate a slow disk. In the case of FetchFollower requests, time spent in LocalTimeMs can be the result of a ZooKeeper write to change the ISR.",
                     "fieldConfig": {
                         "defaults": {
@@ -4558,10 +4417,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply a slow network connection. For fetch request, if the remote time is high, it could be that there is not enough data to give in a fetch response. This can happen when the consumer or replica is caught up and there is no new incoming data. If this is the case, remote time will be close to the max wait time, which is normal. Max wait time is configured via replica.fetch.wait.max.ms and fetch.max.wait.ms.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -4651,10 +4507,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply there aren't enough network threads or the network cant dequeue responses quickly enough, causing back pressure in the response queue.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -4744,10 +4597,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "A high value can imply the zero-copy from disk to the network is slow, or the network is the bottleneck because the network cant dequeue responses of the TCP socket as quickly as theyre being created. If the network buffer gets full, Kafka will block.\n",
                     "fieldConfig": {
                         "defaults": {
@@ -4853,10 +4703,7 @@
             "id": 102,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -4945,10 +4792,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -5037,10 +4881,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -5129,10 +4970,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -5221,10 +5059,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -5313,10 +5148,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -5405,10 +5237,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "Tracks the amount of time Acceptor is blocked from accepting connections. See KIP-402 for more details.",
                     "fieldConfig": {
                         "defaults": {
@@ -5499,10 +5328,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "fieldConfig": {
                         "defaults": {
                             "color": {
@@ -5606,10 +5432,7 @@
             "id": 120,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "Number of consumer groups per group coordinator",
                     "fieldConfig": {
                         "defaults": {
@@ -5700,10 +5523,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "Number of consumer group per state",
                     "fieldConfig": {
                         "defaults": {
@@ -5833,10 +5653,7 @@
             "id": 46,
             "panels": [
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "The number of messages produced converted to match the log.message.format.version.",
                     "fieldConfig": {
                         "defaults": {
@@ -5928,10 +5745,7 @@
                     "type": "timeseries"
                 },
                 {
-                    "datasource": {
-                        "type": "prometheus",
-                        "uid": "1Dqnsmi4z"
-                    },
+                    "datasource": "Prometheus",
                     "description": "The number of messages consumed converted at consumer to match the log.message.format.version.",
                     "fieldConfig": {
                         "defaults": {
@@ -6105,10 +5919,7 @@
                     "text": "dev",
                     "value": "dev"
                 },
-                "datasource": {
-                    "type": "prometheus",
-                    "uid": "1Dqnsmi4z"
-                },
+                "datasource": "Prometheus",
                 "definition": "label_values(env)",
                 "description": null,
                 "error": null,
@@ -6142,10 +5953,7 @@
                         "$__all"
                     ]
                 },
-                "datasource": {
-                    "type": "prometheus",
-                    "uid": "1Dqnsmi4z"
-                },
+                "datasource": "Prometheus",
                 "definition": "label_values(kafka_server_kafkaserver_brokerstate{env=\"${env}\"}, instance)",
                 "description": null,
                 "error": null,
@@ -6179,10 +5987,7 @@
                         "0.95"
                     ]
                 },
-                "datasource": {
-                    "type": "prometheus",
-                    "uid": "1Dqnsmi4z"
-                },
+                "datasource": "Prometheus",
                 "definition": "label_values(quantile)",
                 "description": null,
                 "error": null,
